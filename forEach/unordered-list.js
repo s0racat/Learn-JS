@@ -9,7 +9,7 @@ const ul = document.createElement('ul')
 // li.textContent = 'hoge'
 // ul.appendChild(li)
 
-array.map((x) => {
+array.forEach((x) => {
 	li = document.createElement('li')
 	li.textContent = x
 	ul.appendChild(li)

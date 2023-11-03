@@ -44,11 +44,11 @@ table.appendChild(headerRow);
 // dataRow1.appendChild(dataCell1_1);
 // dataRow1.appendChild(dataCell1_2);
 array.map((x) => {
-var dataRow1 = document.createElement('tr');
+	var dataRow1 = document.createElement('tr');
 	td = document.createElement('td')
 	td.textContent = x
 	dataRow1.appendChild(td)
-table.appendChild(dataRow1);
+	table.appendChild(dataRow1);
 })
 
 
