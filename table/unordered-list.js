@@ -10,7 +10,7 @@ const array = [
 // // li.textContent = 'hoge'
 // // ul.appendChild(li)
 //
-// array.map((x) => {
+// array.forEach((x) => {
 // 	th = document.createElement('th')
 // 	th.textContent = '果物'
 // 	td = document.createElement('td')
@@ -43,7 +43,7 @@ table.appendChild(headerRow);
 // dataCell1_2.textContent = 'データ1-2';
 // dataRow1.appendChild(dataCell1_1);
 // dataRow1.appendChild(dataCell1_2);
-array.map((x) => {
+array.forEach((x) => {
 	var dataRow1 = document.createElement('tr');
 	td = document.createElement('td')
 	td.textContent = x
